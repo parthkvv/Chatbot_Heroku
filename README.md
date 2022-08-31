@@ -1,6 +1,5 @@
 ### Chatbot 
 Created using Heroku. 
-![image](https://user-images.githubusercontent.com/23053807/154792604-478df6d7-f389-4189-8eba-a38b0d5727e5.png)
 
 
 ### yarn start
