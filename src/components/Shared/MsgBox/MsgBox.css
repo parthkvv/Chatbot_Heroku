@@ -1,0 +1,26 @@
+.cont{
+    padding: 5em 0.2em;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.banner{
+    padding:4em 7em;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: rgb(48, 48, 48);
+    /* max-height:40.25em; */
+    max-width:37em;
+    min-height:33em;
+    min-width: 33em;
+    border-radius: 1.5em;
+}
+
+.banner > *{
+    margin-top:2em;
+}

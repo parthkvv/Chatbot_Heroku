@@ -1,0 +1,15 @@
+.MuiDialog-paper{
+    background-color: #1d1d1d !important;
+    border-radius: 1em !important;
+}
+
+#roomName{
+    height:0.5em;
+    color:white !important;
+}
+
+.roomType{
+    height:2.5em;
+    width:2.5em;
+    color:#0077FF;
+}

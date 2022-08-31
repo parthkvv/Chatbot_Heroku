@@ -1,0 +1,32 @@
+.card{
+    /* min-width:28em; */
+    width:30em;
+    max-height: 24em;
+    background-color:#1D1D1D !important;
+    color:white;
+    padding:0.5em;
+}
+.cC > *{
+    margin:0.1em;
+}
+
+.cCButton{
+    align-items: flex-start;
+}
+
+.speakersContainer{
+    display:flex;
+    align-items:center;
+}
+
+.speakersContainer > *{
+    margin-left:0.5em;
+}
+
+.speakers{
+    margin-left:0.8em;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    width:100%;
+}

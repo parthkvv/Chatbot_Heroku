@@ -1,0 +1,57 @@
+.FeedBox{
+    display:flex;
+    padding: 2em;
+    flex-wrap: wrap;
+    background-color: #121212;
+    width: 100vw;
+}
+
+
+.Feed{
+    max-height:75vh;
+    overflow-y: scroll;
+    /* background-color: red; */
+    width:100%;
+    padding:1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Feed > *{
+    margin:1em;
+}
+
+.MuiOutlinedInput-root{
+    border-radius: 2em;
+    background-color:#262626;
+    color:white !important;
+}
+
+#search{
+    padding-left:0.1em;
+    border-radius:2em;
+    background-color:#262626;
+    height:0.2em;
+    max-width:20em;
+    min-width:15em;
+}
+
+.HeaderBox{
+    padding: 0 2em;
+    width: 100%;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HeaderBox > *{
+    margin:1em 0.5em;
+}
+
+@media only screen 
+  and (max-device-width: 768px){
+      .Feed{
+          height:60vh;
+      }
+  } 
